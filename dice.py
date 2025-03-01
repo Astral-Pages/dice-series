@@ -82,7 +82,7 @@ def Dices(rollList):
     return rollList
 
 def Dicify(roll):
-    return (("{}d2, {}d3, d4{}, {}d5, {}d6, {}d8, {}d10, {}d12, {}d20".format(roll[0][0], roll[0][1], roll[0][2], roll[0][3], roll[0][4], roll[0][5], roll[0][6], roll[0][7], roll[0][8])), roll[1], roll[2])
+    return (("{}d2, {}d3, {}d4, {}d5, {}d6, {}d8, {}d10, {}d12, {}d20".format(roll[0][0], roll[0][1], roll[0][2], roll[0][3], roll[0][4], roll[0][5], roll[0][6], roll[0][7], roll[0][8])), roll[1], roll[2])
 
 def Dice():
     rollList = GetRollValues()
